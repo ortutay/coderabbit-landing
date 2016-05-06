@@ -1,0 +1,137 @@
+.cf {
+  *zoom: 1;
+}
+.cf::before,
+.cf::after {
+  content: ' ';
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf .l {
+  float: left;
+}
+.cf .r {
+  float: right;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+body {
+  font: normal 16px/1.6 'helvetica neue', helvetica !important;
+  color: rgba(0,0,0,0.8);
+}
+.body.container {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.bar {
+  margin-bottom: 5rem;
+  font-weight: bold;
+  line-height: 3rem;
+}
+.bar .logo {
+  font-size: 150%;
+}
+.sec {
+  padding: 5rem 0;
+}
+.sec .title {
+  font-weight: bold;
+  font-size: 200%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.attention {
+  text-align: center;
+  font-weight: 300;
+}
+.attention .slogan {
+  font-size: 215%;
+  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.attention p {
+  font-size: 135%;
+  color: rgba(0,0,0,0.5);
+}
+.attention .apply {
+  display: inline-block;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: rgba(0,0,0,0.5);
+}
+.attention .apply:hover {
+  color: rgba(0,0,0,0.7);
+}
+.email {
+  font-weight: bold;
+  font-size: 200%;
+}
+.email a {
+  padding: 2rem;
+  display: inline-block;
+  border: solid 3px #1eaedb;
+  border-radius: 8px;
+  line-height: 1;
+}
+.email a:hover {
+  color: #47c0e6;
+  border-color: #47c0e6;
+}
+.pricing {
+  text-align: center;
+}
+.pricing .sub {
+  font-weight: 300;
+  color: rgba(0,0,0,0.5);
+  font-size: 150%;
+  margin-top: -2rem;
+}
+.stats .stat {
+  text-align: center;
+}
+.stats .stat .num {
+  font-weight: bold;
+  font-size: 350%;
+  line-height: 1;
+  font-weight: 100;
+  margin: 1rem;
+}
+.stats .stat .desc {
+  font-weight: bold;
+  color: rgba(0,0,0,0.5);
+}
+.quality .point h3 {
+  text-align: center;
+  margin: 0 0 1.5rem;
+  font-size: 110%;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+.quality .point p {
+  margin-bottom: 0;
+}
+.turnaround {
+  text-align: center;
+}
+.turnaround p {
+  width: 500px;
+  margin: 0 auto;
+}
+.convinced {
+  text-align: center;
+}
+.footer {
+  padding: 8rem 0 2rem;
+  text-align: center;
+}
+.footer span,
+.footer a {
+  margin: 0 1rem;
+}

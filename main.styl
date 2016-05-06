@@ -1,0 +1,115 @@
+@require alias
+
+theme = #1EAEDB
+
+.cf
+  cf()
+
+a
+  tdec none
+  &:hover
+    tdec none
+
+body
+  f normal 16px/1.6 'helvetica neue', helvetica !important
+  bco 0.8
+
+.body.container
+  mt 4rem
+  mb 4rem
+
+.bar
+  mb 5rem
+  fw bold
+  lh 3rem
+  .logo
+    fs 150%
+
+.sec
+  pa 5rem 0
+  .title
+    fw bold
+    fs 200%
+    align center
+    mb 3rem
+
+.examples
+  // bbort 0.1
+
+.attention
+  align center
+  fw 300
+  .slogan
+    fs 215%
+    lh 1
+    fw bold
+    mb 1rem
+  p
+    fs 135%
+    bco 0.5
+  .apply
+    disp inline-block
+    mt 2rem
+    fw bold
+    bco-hover 0.5 0.7
+
+.email
+  fw bold
+  fs 200%
+  a
+    pa 2rem
+    disp inline-block
+    bor solid 3px theme
+    brad 8px
+    lh 1
+    &:hover
+      co lighten(theme, 20%)
+      borc lighten(theme, 20%)
+
+.pricing
+  align center
+  .sub
+    fw 300
+    bco 0.5
+    fs 150%
+    mt -2rem
+
+.stats
+  .stat
+    align center
+    .num
+      fw bold
+      fs 350%
+      lh 1
+      fw 100
+      m 1rem
+    .desc
+      fw bold
+      bco 0.5
+
+.quality
+  .point
+    h3
+      align center
+      m 0 0 1.5rem
+      fs 110%
+      fw bold
+      ls 0
+    p
+      mb 0
+
+.turnaround
+  align center
+  p
+    w 500px
+    m 0 auto
+
+
+.convinced
+  align center
+
+.footer
+  pa 8rem 0 2rem
+  align center
+  span, a
+    m 0 1rem
